@@ -1,0 +1,9 @@
+ALTER TABLE cars
+ALTER COLUMN salesperson_id
+DROP NOT NULL;
+
+SELECT *
+FROM cars
+
+ALTER TABLE cars
+RENAME COLUMN year TO car_year
